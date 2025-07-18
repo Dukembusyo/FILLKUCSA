@@ -1242,9 +1242,13 @@ section,
 }
 
 .trainers-index .member img {
-  margin: -1px -1px 30px -1px;
-  height: 100px;
-  width: 100px;
+    width: 200px; /* You can adjust this size */
+  height: 200px;
+  object-fit: cover; /* Ensures image covers area without distortion */
+  margin-bottom: 30px; /* Optional spacing below image */
+  display: block;
+  border-radius: 8px; /* Optional: rounded corners for a modern look */
+
 }
 
 .trainers-index .member .member-content {
