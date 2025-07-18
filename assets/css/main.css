@@ -1243,6 +1243,8 @@ section,
 
 .trainers-index .member img {
   margin: -1px -1px 30px -1px;
+  height: 100px;
+  width: 100px;
 }
 
 .trainers-index .member .member-content {
